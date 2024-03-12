@@ -1,0 +1,24 @@
+.ma-classe {
+    color: #663399;
+}
+
+body {
+    /*background-image: url("ban.jpg");*/
+    /*background-attachment: fixed; /* associée à la valeur  fixed  permet de rendre l'image de fond fixe lorsqu'on déroule la page web */
+    /*background-size: cover; /* associée à la valeur  cover  permet de redimensionner l'image afin qu'elle s'adapte à la taille de l'élément qui la contient */
+}
+
+.baniere {
+    background: linear-gradient(90deg, #8360c3, #2ebf91); /* dégradés */
+}
+
+.element {
+    font-size: 25px;
+    background-color: skyblue;
+    border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+    padding: 100px;
+}
+
+.element:hover { /* Survol de la souris */
+    background-color: indianred;
+}
